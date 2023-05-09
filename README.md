@@ -19,7 +19,7 @@ Front-end: HTML , CSS, Bootstrap and JavaScript
 
 Back-end: PostgreSQL, Flask, psycopg2 and Python
 
-Deep-learning-pipeline: Tensorlfow
+Deep-learning-pipeline: Tensorflow
 
 Model used : [1] Mobilenet V2
 [2] VGG16
