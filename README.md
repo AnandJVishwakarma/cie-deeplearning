@@ -28,7 +28,11 @@ Model used : [1] Mobilenet V2
 
 ``Home section:`` First  Page of the website
 
+<<<<<<< HEAD
 ![Home](https://github.com/Rehan-99/cie-deeplearning/assets/54002059/91d4fe40-728a-4bfd-a7ca-db482daa6564)
+=======
+![Home](https://github.com/Rehan-99/cie-deeplearning/assets/54002059/91d4fe40-728a-4bfd-a7ca-db482daa6564))
+>>>>>>> 5306f5a (updating readme)
 
 
 ``Form section:`` used to pass the image to the model which computes intensity and forwards input data to the  database.
