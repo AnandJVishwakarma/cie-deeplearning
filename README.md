@@ -38,7 +38,7 @@ Model used : [1] Mobilenet V2
 
 ``Live Weather Map:`` made using Windy API, showing live wind patterns and redirects the map to the coordinates recieved as input, incase of a cyclone, highlights the area with strong wind pattern
 
-![Windy map](image.png)
+![Windy map](windy.png)
 
 
 ``Archive Table:`` displaying all previously uploaded data stored in database
