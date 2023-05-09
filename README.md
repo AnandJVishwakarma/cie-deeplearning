@@ -28,7 +28,7 @@ Model used : [1] Mobilenet V2
 
 ``Home section:`` First  Page of the website
 
-![Home]([image.png](https://github.com/Rehan-99/cie-deeplearning/assets/54002059/91d4fe40-728a-4bfd-a7ca-db482daa6564))
+![Home](https://github.com/Rehan-99/cie-deeplearning/assets/54002059/91d4fe40-728a-4bfd-a7ca-db482daa6564)
 
 
 ``Form section:`` used to pass the image to the model which computes intensity and forwards input data to the  database.
@@ -37,7 +37,7 @@ Model used : [1] Mobilenet V2
 
 ``Live Weather Map:`` made using Windy API, showing live wind patterns and redirects the map to the coordinates recieved as input, incase of a cyclone, highlights the area with strong wind pattern.
 
-![Windy map](https://github.com/Rehan-99/cie-deeplearning/assets/54002059/5bf081d1-f8b2-4593-99ee-817a1270f40b)
+![windy](https://github.com/Rehan-99/cie-deeplearning/assets/54002059/a1bed201-4df7-464e-a5f5-7d2bf8b218f7)
 
 
 ``Archive Table:`` Displaying all previously uploaded data which stored in database
