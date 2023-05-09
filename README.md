@@ -28,25 +28,23 @@ Model used : [1] Mobilenet V2
 
 ``Home section:`` First  Page of the website
 
-![Home](image.png)
+![Home]([image.png](https://github.com/Rehan-99/cie-deeplearning/assets/54002059/91d4fe40-728a-4bfd-a7ca-db482daa6564))
 
 
-``Form section:`` used to pass the image to the model which computes intensity and forwards input data to the  database
+``Form section:`` used to pass the image to the model which computes intensity and forwards input data to the  database.
 
-![Form](https://user-images.githubusercontent.com/101162842/163724953-f8479e57-267e-4560-8a1c-9761afe49f35.jpg)
+![predict](https://github.com/Rehan-99/cie-deeplearning/assets/54002059/b0917d7a-d6c5-495b-b0f4-4624ca3bf40c)
 
+``Live Weather Map:`` made using Windy API, showing live wind patterns and redirects the map to the coordinates recieved as input, incase of a cyclone, highlights the area with strong wind pattern.
 
-``Live Weather Map:`` made using Windy API, showing live wind patterns and redirects the map to the coordinates recieved as input, incase of a cyclone, highlights the area with strong wind pattern
-
-![Windy map](windy.png)
-
-
-``Archive Table:`` displaying all previously uploaded data stored in database
-
-![Archive Table](https://user-images.githubusercontent.com/101162842/163724961-db84f65f-4d13-49dc-8d97-d30726918a14.jpg)
+![Windy map](https://github.com/Rehan-99/cie-deeplearning/assets/54002059/5bf081d1-f8b2-4593-99ee-817a1270f40b)
 
 
-``Submitted Image:`` Would be displayed as
+``Archive Table:`` Displaying all previously uploaded data which stored in database
+![database](https://github.com/Rehan-99/cie-deeplearning/assets/54002059/59f6a49c-07ef-441f-8802-0e4da1321cdf)
 
-![Image image](https://user-images.githubusercontent.com/101162842/163724965-9bdb6f09-1d3f-4d4b-be08-dfd7bfdcde03.jpg)
+
+``Submitted Image:`` Input Image willbe dispalyed as Localized Image along with intensity and Category of Cyclone
+![output](https://github.com/Rehan-99/cie-deeplearning/assets/54002059/8880b5cb-5414-466c-beb8-88388cfa976f)
+
 
