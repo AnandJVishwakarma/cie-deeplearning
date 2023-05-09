@@ -1,0 +1,95 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Demo</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">     
+    
+    <!-- <style>
+        .navbar-brand  {
+            background-color:  rgba(0, 0, 0, 0.5);
+            
+        
+        }
+
+        .navbar {
+            color:  #16a085;
+    }
+    </style> -->
+    
+
+    
+<style>
+    #heading{
+        margin-top: 200px;
+    }    
+    
+    
+    </style>
+    
+
+
+</head>
+
+<body >
+    <nav class="navbar ">
+        <div class="container">
+            <a class="logo" href="/">Cycloest</a>
+            <ul>
+                <li> <a href="/archive" class="btn btn-primary mt-2"><b>Database</b></a></li>
+                <li> <a href="/about" class="btn btn-primary mt-2"><b>About</b></a></li>
+
+
+            </ul>
+    
+        </div>
+    </nav>
+    <div class="container">
+        <div id="content" style="margin-top:2em">{% block content %}{% endblock %}</div>
+    </div>
+    
+<div id = 'heading'> 
+    <centre>
+        <h1><b>DEEPLEARNING -BASED </b></h1><br>
+
+        <h1><b>TROPICAL CYCLONE</b> </h1><br>
+        
+        <h1><b>INTENSITY ESTIMATOR !</b></h1>
+    </centre>
+</div>
+           
+
+<div>
+    <a href="/info" class="button btn-primary mt-4">Read More!</a> <a href="/cal-intensity" class="button btn-primary mt-3">Estimate Cyclone Intensity</a> <a href="/live-map" class="button btn-primary mt-3">Live Wind MAP</a>
+    
+</div>
+
+
+
+
+</body>
+
+<footer>
+    <script src="{{ url_for('static', filename='js/main.js') }}" type="text/javascript"></script>    
+</footer>
+
+
+
+        <!-- <div class="loader" style="display:none;"></div>
+
+        <h3 id="result">
+            <span> </span>
+        </h3>
+
+    </div> -->
+
+
+
+
+</html>

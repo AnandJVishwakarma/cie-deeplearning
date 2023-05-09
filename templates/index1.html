@@ -1,0 +1,71 @@
+{% extends "base.html" %} {% block content %}
+<style>
+h1 {text-align: center;
+color:  #000080  ;}
+div {text-align: center;}
+
+h3 {text-align: center; margin-left: auto; margin-right: auto;
+color: red;}
+
+button {
+  border: none;
+  color: #000080;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+.button1 {background-color:  #f4f6f7 ; border-radius: 12px;} /* read more */
+.button2 {background-color: #f4f6f7; border-radius: 10px;}
+.upload-label {background-color: white; }
+</style>
+<script>
+
+function windowOpen() {window.open("newpage.html");}
+
+</script>
+
+
+
+<h1>DEEPLEARNING -BASED </h1>
+
+<h1>TROPICAL CYCLONE </h1>
+
+<h1>INTENSITY ESTIMATOR !</h1>
+
+<div>
+    <form id="upload-file" method="post" enctype="multipart/form-data">
+        <label for="imageUpload" class="upload-label">
+            Upload Image
+        </label>
+        <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg"> or  <button class="btn button1",id="btn-read" ,onclick= "myFunc()" >Read More!</button>
+    </form>
+    
+
+    <div class="image-section" style="display:none;">
+        <div class="img-preview">
+            <div id="imagePreview">
+            </div>
+        </div>
+        <div>
+            <button type="button" class="btn button2 " id="btn-predict">Predict!</button>
+        </div>
+    </div>
+
+    
+
+    <div class="loader" style="display:none;"></d iv>
+
+    <h3 id="result">
+        <span> </span>
+    </h3>
+
+</div>
+
+{% endblock %}
