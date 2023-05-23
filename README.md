@@ -15,11 +15,11 @@ The  user can upload INSAT-3D IR Satellite Image of Cyclone which is then passed
 
 ## Tech Stack Used
 
-Front-end: HTML , CSS, Bootstrap and JavaScript
+⚫ Front-end: HTML , CSS, Bootstrap and JavaScript
 
-Back-end: PostgreSQL, Flask, psycopg2 and Python
+⚫ Back-end: PostgreSQL, Flask, psycopg2 and Python
 
-Deep-learning-pipeline: Tensorflow
+⚫ Deep-learning-pipeline: Tensorflow
 
 Model used : [1] Mobilenet V2
 [2] VGG16
@@ -32,7 +32,7 @@ Model used : [1] Mobilenet V2
 ![Home](https://github.com/Rehan-99/cie-deeplearning/assets/54002059/91d4fe40-728a-4bfd-a7ca-db482daa6564)
 =======
 ![Home](https://github.com/Rehan-99/cie-deeplearning/assets/54002059/91d4fe40-728a-4bfd-a7ca-db482daa6564))
->>>>>>> 5306f5a (updating readme)
+
 
 
 ``Form section:`` used to pass the image to the model which computes intensity and forwards input data to the  database.
