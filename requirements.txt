@@ -4,4 +4,4 @@ numpy
 pandas
 matplotlib
 tensorflow
-opencv-pytho
+opencv-python
